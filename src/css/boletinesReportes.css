@@ -1,0 +1,137 @@
+/* .MuiCollapse-container {
+    min-height: 300px !important;
+} */
+
+.contentExpandedBoletin {
+    min-height: 300px !important;
+
+}
+
+.MuiCardContent-root {
+    min-height: 130px;
+}
+
+#buttonBoletin, #buttonReporteComunidades, #buttonReporteRegiones, #buttonReporte {
+    position: absolute;
+    bottom: 10px;
+}
+
+/* .imageReportePOA {
+    max-height: 450px;
+    filter: blur(2px);
+    box-shadow: 0 0 15px #898989;
+    background: #fff;
+    border-radius: 10px;
+} */
+.imageReportePOA {
+    width: fit-content;
+    height: 450px;
+
+
+    filter: blur(2px);
+    box-shadow: 0 0 15px #898989;
+    background: #fff;
+    max-height: 450px;
+
+    
+}
+
+.imageReporteDepartamento {
+
+
+    max-height: 400px;
+    width: fit-content;
+    height: 400px;
+}
+
+.figureReporte {
+    background-color: #a7d79f;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.imagePaisaje {
+    max-height: 500px;
+}
+
+#titleBoletin {
+    width: 100%;
+    height: auto;
+    min-height: inherit;
+    margin: 0 !important;
+    overflow: hidden;
+    background-image: url(../img/backgroundTitleBoletin.png);
+    background-size: contain;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textIntro {
+    font-size: small;
+}
+
+.titlePOAReporte {
+    background-color: #a7d79f5c;
+    padding: 15px 0;
+}
+
+#reportePage {
+    /* width: 8.5in; */
+    width: 1000px;
+    min-width: 1000px;
+    max-width: 1000px;
+}
+.headerCasosSeguimiento {
+    background-color: #a7d79f;
+}
+
+.leftColumn {
+    width: 30%;
+}
+.rightColumn {
+    width: 70%;
+}
+.table-row {
+    width: 100%;
+}
+
+
+
+
+
+
+@media all {
+
+    .break-after-page {
+        break-after: page;
+    }
+    .break-after-page-auto {
+        break-after: auto;
+    }
+
+}
+
+@media print {
+
+    @page {
+        margin: 0;
+    }
+
+    #header {
+        height: 90px;
+    }
+
+    #titleBoletin {
+        max-height: 90px;
+
+    }
+    .cuerpoDetallesComunidad,  .cuerpoDetallesPOA {
+        overflow-y: hidden;
+    }
+
+
+
+}

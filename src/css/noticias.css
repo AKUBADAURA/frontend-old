@@ -1,0 +1,68 @@
+a {
+    text-decoration: none;
+  }
+  
+  #category {
+    font-weight: 500;
+  }
+  
+  #titleCard {
+    letter-spacing: 0.4px;
+    font-size: 22px;
+    font-size: 1rem;
+    line-height: 1.13636;
+  }
+  
+  #banner {
+    margin: 20px 0;
+  }
+  
+  #editor {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+  .titulo {
+    background-color: #6314a89e; padding: 4em;
+  }
+  
+  .uk-navbar-container {
+    background: #fff !important;
+  }
+  
+  img:hover {
+    opacity: 1;
+    transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+  
+
+  .navigation{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2px  0;
+      margin: 0;
+      background-color: #a7d79f;
+      max-height: 40px;
+      height: 10vh;
+  
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .titleArticle {
+    position: relative;
+    background: #d2d2d25e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 6rem;
+    color: black;
+    text-align: end;
+    padding: 20px 60px;
+    font-size: 2rem;
+    width: 100%;
+}

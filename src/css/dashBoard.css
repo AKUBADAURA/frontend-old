@@ -1,0 +1,8 @@
+/* dashBoards Users  */
+
+
+#dashBoardModalUser {
+    width: 80% !important;
+    overflow: scroll;
+    height: 100vh;
+}

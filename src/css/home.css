@@ -1,0 +1,378 @@
+/* HEADER */
+
+#header {
+    width: 100%;
+    height: 15vh;
+    /* min-height: 90px; */
+    margin: 0 !important;
+    overflow: hidden;
+    background-image: url(../img/background.png)
+}
+
+/* h1 {
+    font-family: 'Righteous', cursive ;
+    color: #003D14;
+    font-size: xxx-large !important;
+} */
+
+#root {
+    display: flex;
+}
+
+
+#logo {
+    padding: inherit;
+}
+
+#title {
+    font-size: large;
+    font-weight: bolder;
+}
+
+/*NAV VAR*/
+
+#menuItems {
+    background-color: #003D14;
+    /* max-height: 30px; */
+    height: 4vh;
+}
+
+.nav-link {
+    color: #f2f2f2 !important;
+}
+
+.titleNavBar {
+    font-size: 0.5rem;
+}
+
+.nav-item {
+    width: fit-content;
+}
+
+.itemsNav {
+    font-size: 0.5rem;
+} 
+
+
+
+/*MENU /////////////////////////*/
+/*boton*/
+.menuOpen {
+    position: absolute;
+    right: 0;
+    bottom: -282px;
+    height: 282px;
+    width: 225px;
+    background: #F2F2F2;
+    z-index: 10000;
+}
+
+.menuOpenRegister,
+.menuOpenSignIn {
+    position: absolute;
+    right: 0;
+    bottom: -282px;
+    height: 282px;
+    width: 225px;
+    background: #F2F2F2;
+    z-index: 10000;
+}
+
+span {
+    font-size: 0.8rem;
+}
+
+span.MuiFab-label {
+    font-size: 1rem;
+}
+
+
+
+.separadores {
+    border: 1px solid #979797;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: inherit;
+}
+
+.middleSeparadores {
+    min-width: fit-content;
+    margin: 0px 1em;
+}
+
+#menuIcon:active {
+    border: none !important;
+}
+
+#menuIcon {
+    border: none !important;
+    font-size: 20px;
+    padding: 0;
+    display: flex;
+}
+
+
+.profilePhoto {
+    border: 1px solid #003D14;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    border-radius: 40px;
+    background-color: #A7D79F;
+}
+
+.itemLogged {
+    font-size: larger;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: .7rem !important;
+    color: black !important;
+    border-bottom: 1px solid #21252938;
+}
+
+.itemLogged:hover {
+    background-color: #003d1431;
+}
+
+/* BODY ////////////////////////////*/
+
+#homeBody {
+    width: 100%;
+    /* min-height: 526px; */
+    overflow: hidden;
+    background-size: auto;
+    position: relative;
+    bottom: 0;
+    height: 80vh;
+}
+
+#background {
+    width: 100%;
+    min-height: 680px;
+    overflow: hidden;
+    background-image: url(../img/welcome-background.png);
+    height: 100%;
+
+    opacity: 1;
+    /* position: absolute; */
+    background-size: cover;
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+    bottom: 0;
+    transition: opacity 5.0s ease-in-out;
+    -webkit-transition: opacity 5.0s ease-in-out;
+    -moz-transition: opacity 5.0s ease-in-out;
+    z-index: 1;    
+    background-attachment: fixed;
+
+}
+
+#ilustration:hover {
+    opacity: 1;
+    transition: opacity 5.0s ease-in-out;
+    -webkit-transition: opacity 5.0s ease-in-out;
+    -moz-transition: opacity 5.0s ease-in-out;
+}
+
+#ilustration {
+    min-height: 680px;
+    overflow: hidden;
+    background-image: url(../img/welcome-ilustration.png);
+    opacity: 0;
+    position: absolute;
+    /* background-position: center center; */
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    transition: opacity 5.0s ease-in-out;
+    -webkit-transition: opacity 5.0s ease-in-out;
+    -moz-transition: opacity 5.0s ease-in-out;
+    bottom: 0;
+    height: 100%;
+    z-index: 2;
+    /* top: initial; */
+    padding: 0 2rem 0 2rem;
+    width: 100%;
+    /* background-color: #ffffff3b; */
+
+}
+
+.containerTimelineTwitter {
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    left: 10px;
+    width: 428px;
+    height: 58vh !important;
+    scale: 70%;
+    transform-origin: left top;
+    padding: 0;
+}
+
+
+
+/* .twitter-timeline-rendered>iframe {
+    height: 35vh !important;
+} */
+
+#containerNovedades {
+    right: 10px;
+    width: 300px;
+    position: absolute;
+    height: 75vh;
+    overflow: auto;
+    top: 10px;
+    padding: 0;
+    background: white;
+    z-index: 3;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+#containerNovedades>* {
+    font-size: 0.7rem
+}
+.MuiTypography-displayBlock {
+    font-size: 0.7rem;
+}
+
+/* ENLACES ////////////////////////////*/
+
+#enlaces {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 3;
+}
+
+#enlaces>a>button {
+    background: #ffffffb9;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.iconEnlace {
+    font-size: 20px;
+}
+
+/*CAROUSEL //////////////// ////////////////*/
+
+
+.item {
+    position: relative;
+    height: 30vw;
+    overflow: hidden;
+    padding: 20px;
+    width: 50vw;
+}
+
+/*////////////SCROLL BARRRRR/////////////////*/
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #003d1435;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #003d14a5;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #003D14;
+    border-radius: 5px;
+}
+
+
+
+/* MEDIA QUERIES ////////////////////////////*/
+
+
+@media (max-width: 1199px) {
+
+    #header {
+        min-height: 90px;
+    }
+
+    /* h1 {
+    font-size: xx-large !important;
+} */
+    .titleNavBar {
+        font-size: 0.5rem;
+    }
+
+
+
+}
+
+
+@media (max-width: 991px) {
+
+    /* h1 {
+    font-size: xx-large !important;
+} */
+    .titleNavBar {
+        font-size: 0.5rem;
+    }
+
+    #title {
+        font-size: large;
+        font-weight: bolder;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    /* h1 {
+    font-size: x-large !important;
+} */
+
+    #header {
+        min-height: 80px;
+    }
+
+    #title {
+        font-size: small;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    /* h1 {
+    font-size: 1.5rem !important;
+} */
+
+}
+
+
+/* /////////ZOOM SCALE //////////// */
+
+body {
+    /* width: 125%;
+    height: 125%;
+    transform-origin: 0 0;
+    transform: scale(0.8); */
+    
+    /* 
+    -ms-transform: scale(0.8);
+    -ms-transform-origin: 50% 0;   
+    -moz-transform: scale(0.8);
+    -moz-transform-origin: 50% 0 0;   
+    -webkit-transform: scale(0.8);
+    -webkit-transform-origin: 50% 0 0;    */
+
+
+
+
+}

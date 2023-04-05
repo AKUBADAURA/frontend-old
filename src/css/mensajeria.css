@@ -1,0 +1,14 @@
+
+.tabPanel {
+    height: 278px;
+    overflow: auto;
+}
+
+
+.tabPanelRow>div {
+    width: 100%;
+}
+
+.tabsHeaderMessage>div>div {
+    justify-content: center;
+}

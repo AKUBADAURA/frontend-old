@@ -1,0 +1,23 @@
+.divisor {
+  border: 1px solid #979797;
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+
+body {
+  background-color: #F2F2F2;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 0.8rem;
+  min-width: 1100px;
+}
+
+.selectFunction, .formControlSelect {
+  font-family: 'Reem Kufi', sans-serif !important;
+}
+
+
+/* MOSTRAR BACKGROUND IMAGE IN PRINT VERSION */
+* {
+  -webkit-print-color-adjust: exact !important;   /* Chrome, Safari, Edge */
+  color-adjust: exact !important;                 /*Firefox*/
+}

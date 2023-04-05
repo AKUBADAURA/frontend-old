@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "https://snicpli-akubadaura.org/static/css/main.d3ef3c58.chunk.css",
+    "main.js": "https://snicpli-akubadaura.org/static/js/main.be94b642.chunk.js",
+    "runtime-main.js": "https://snicpli-akubadaura.org/static/js/runtime-main.2cf2b80e.js",
+    "static/css/2.d3e84869.chunk.css": "https://snicpli-akubadaura.org/static/css/2.d3e84869.chunk.css",
+    "static/js/2.d620c85f.chunk.js": "https://snicpli-akubadaura.org/static/js/2.d620c85f.chunk.js",
+    "index.html": "https://snicpli-akubadaura.org/index.html",
+    "static/js/2.d620c85f.chunk.js.LICENSE.txt": "https://snicpli-akubadaura.org/static/js/2.d620c85f.chunk.js.LICENSE.txt",
+    "static/media/home.css": "https://snicpli-akubadaura.org/static/media/welcome-ilustration.a9b5de42.png",
+    "static/media/contacto.css": "https://snicpli-akubadaura.org/static/media/backgroundContainerContactoSiteB.42f6bb05.jpg",
+    "static/media/boletinesReportes.css": "https://snicpli-akubadaura.org/static/media/backgroundTitleBoletin.f2cbe174.png",
+    "static/media/leaflet.draw.css": "https://snicpli-akubadaura.org/static/media/spritesheet.a4e0eb7a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2cf2b80e.js",
+    "static/css/2.d3e84869.chunk.css",
+    "static/js/2.d620c85f.chunk.js",
+    "static/css/main.d3ef3c58.chunk.css",
+    "static/js/main.be94b642.chunk.js"
+  ]
+}

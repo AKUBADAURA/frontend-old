@@ -1,0 +1,24 @@
+#listNovedades >a {
+    text-decoration: none;
+}
+
+#listNovedades {
+    color: blue;
+    padding-top: 0;
+    /* background-color: #bb8f4652;     */
+}
+
+#titleNovedades {
+    /* background-color:rgba(154, 94, 64, 1); */
+    /* color: white; */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.titleListNovedades {
+    /* background-color:rgba(187, 143, 70, 1) !important; */
+    /* color: white !important; */
+    margin-top: 0;
+}
+
